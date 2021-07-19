@@ -1,8 +1,11 @@
 body {
 	background-color: white;
 }
+.address {
+	width: 92%;
+}
 .containerNav {
-	width: 90%;
+	width: 94%;
 	margin: auto;
 }
 .social {
@@ -30,7 +33,10 @@ body {
 	font-size: 20px;
 	font-weight: 600;
 }
-
+.containerFluid2 {
+	width: 75%;
+	margin: auto;
+}
 .cardTitle {
 	color: #102d5e;
 	font-size: 25px;
@@ -38,10 +44,11 @@ body {
 	text-transform: uppercase;
 }
 .cardDetails {
-	font-size: 16px;
+	font-size: 17px;
 	text-align: center;
-	padding-left: 35px;
-	padding-right: 35px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-weight: 600;
 }
 .card li {
 	list-style: none;
@@ -103,7 +110,7 @@ body {
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 }
-.textBtn{
+.textBtn {
 	margin-top: 30px;
 	background-color: #0b7cac;
 	color: white;
@@ -147,12 +154,11 @@ body {
 	width: 100%;
 	background-color: #051643;
 	position: relative;
-	margin-bottom: 100px;
 	padding-bottom: 100px;
 }
 
 .pr {
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: 400;
 }
 .ch {
@@ -167,26 +173,26 @@ body {
 	position: relative;
 	box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
 }
-.standardStyle{
+.standardStyle {
 	position: absolute;
 	top: 10%;
 	left: 94%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
 	background-color: #0b7cac;
 	text-transform: uppercase;
 	font-weight: 650;
 	font-size: 16px;
 	padding: 5px 10px;
 }
-.standardStyle2{
+.standardStyle2 {
 	width: 0;
 	height: 0;
 	border-bottom: 20px solid #0b719f;
-    border-right: 20.5px solid transparent;
+	border-right: 20.5px solid transparent;
 	position: absolute;
 	top: 5.7%;
 	left: 102.1%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
 	/* background-color: #0b7cac; */
 	text-transform: uppercase;
 	font-size: 15px;
@@ -270,36 +276,141 @@ body {
 .prHover:hover .icon {
 	opacity: 40%;
 }
-
+.faqQ {
+	background-color: #051643;
+	cursor: pointer;
+}
+.faqQ .btn {
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 20px 40px;
+	text-align: left;
+}
+.p {
+	color: #454360;
+	font-size: 17px;
+	font-weight: 600;
+	padding: 20px 40px;
+}
+.btn-link:hover {
+	text-decoration: none;
+	color: white;
+}
+.faqCont {
+	width: 92%;
+}
+.wh {
+	position: relative;
+	width: 100%;
+	margin-top: 100px;
+}
+.borderDiv,
+.borderDiv2 {
+	width: 50%;
+	background-color: #051643;
+	height: 400px;
+}
+.borderDiv {
+	border-top-right-radius: 25px 50px;
+	text-align: right;
+}
+.borderDiv2 {
+	border-top-left-radius: 25px 50px;
+	text-align: left;
+}
+.bT {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.des {
+	color: white;
+	font-size: 40px;
+	width: 100%;
+	font-weight: 700;
+	position: absolute;
+	top: 45%;
+	left: 62%;
+	transform: translate(-50%, -50%);
+}
+.containerFluid {
+	width: 75%;
+}
+.containerFluid .cardDetails {
+	text-align: left !important;
+	font-weight: normal !important;
+}
+.lastL li {
+	padding: 5px 10px;
+}
 @media all and (max-width: 400px) {
 	.address {
 		margin-left: -100%;
 	}
+	.containerNav {
+		width: 100%;
+	}
 	.navbar {
 		margin-top: -80px;
-		width: 120%;
-		margin-left: -55px;
 	}
 	.mediaFlex {
 		margin-bottom: 2rem;
 	}
-	.standardStyle{
+	.pricingDiv {
+		width: 100%;
+	}
+	.standardStyle {
 		left: 91%;
 	}
-	.standardStyle2{
+	.standardStyle2 {
 		top: 6%;
 		left: 103%;
 		border-right: 19px solid transparent;
 	}
-	.textDiv{
+	.textDiv {
 		left: 50%;
 	}
-	.textVideo{
+	.textVideo {
 		width: 50%;
 		font-size: 14px;
 	}
-	.textBtn{
+	.textBtn {
 		font-size: 11px;
 		padding: 10px 30px;
+	}
+	.pr {
+		font-size: 16px;
+	}
+	.ch {
+		font-size: 24px;
+	}
+	.labFaq {
+		font-size: 16px;
+	}
+	.faqCont {
+		width: 100%;
+	}
+	.des {
+		text-align: center;
+		width: 100%;
+		font-size: 20px;
+		top: 40%;
+		left: 50%;
+	}
+	.bT {
+		top: 60%;
+		font-size: 15px;
+	}
+	.borderDiv,
+	.borderDiv2 {
+		height: 370px;
+	}
+	.containerFluid2 {
+		width: 90%;
+	}
+	.containerFluid {
+		width: 90%;
 	}
 }
