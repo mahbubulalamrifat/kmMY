@@ -1,0 +1,49 @@
+.sB{
+    background-color: #F0F3F4;
+    padding-bottom: 50px;
+}
+.sBN{
+    padding-top: 50px;
+}
+.serIc{
+    color: #0b7cac;
+    font-size: 80px;
+}
+.ser{
+    font-weight: normal !important;
+    padding-left: 20px !important;
+	padding-right: 20px !important;
+}
+.containerFluid li{
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    
+}
+.sQ{
+    background-color: #0b7cac;
+    padding: 15px 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.sA{
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btnBT{
+    color: white;
+    background-color: #6EC1E4;
+    font-size: 16px;
+    font-size: 600;
+}
+/* pricing */
+.borderP{
+    border-style: dotted;
+}
+.tx{
+    font-size: 16px;
+    font-weight: 700;
+    color: #cfcfcf;
+    margin-left: 10px;
+}

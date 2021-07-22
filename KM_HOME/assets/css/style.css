@@ -1,5 +1,6 @@
 body {
 	background-color: white;
+	overflow-x: hidden;
 }
 .address {
 	width: 92%;
@@ -29,10 +30,7 @@ body {
 	width: 100px;
 	background-color: #ff9900;
 }
-.midCenter {
-	font-size: 20px;
-	font-weight: 600;
-}
+.containerFluid,
 .containerFluid2 {
 	width: 75%;
 	margin: auto;
@@ -49,6 +47,15 @@ body {
 	padding-left: 30px;
 	padding-right: 30px;
 	font-weight: 600;
+}
+.cardDetail {
+	font-size: 17px;
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-weight: 600;
+	text-align: left;
+	font-weight: normal;
 }
 .card li {
 	list-style: none;
@@ -159,7 +166,8 @@ body {
 
 .pr {
 	font-size: 20px;
-	font-weight: 400;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 .ch {
 	font-size: 28px;
@@ -172,6 +180,7 @@ body {
 .standardSh {
 	position: relative;
 	box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+	box-shadow: 25px 25px 40px 0px rgb(0 0 0 / 50%);
 }
 .standardStyle {
 	position: absolute;
@@ -190,7 +199,7 @@ body {
 	border-bottom: 20px solid #0b719f;
 	border-right: 20.5px solid transparent;
 	position: absolute;
-	top: 5.7%;
+	top: 5.8%;
 	left: 102.1%;
 	transform: translate(-50%, -50%);
 	/* background-color: #0b7cac; */
@@ -279,6 +288,7 @@ body {
 .faqQ {
 	background-color: #051643;
 	cursor: pointer;
+	position: relative;
 }
 .faqQ .btn {
 	color: white;
@@ -286,6 +296,13 @@ body {
 	font-weight: 600;
 	padding: 20px 40px;
 	text-align: left;
+}
+
+.angle {
+	position: absolute;
+	top: 40%;
+	left: 96%;
+	transform: translate(-50%, -50%);
 }
 .p {
 	color: #454360;
@@ -335,17 +352,117 @@ body {
 	left: 62%;
 	transform: translate(-50%, -50%);
 }
-.containerFluid {
-	width: 75%;
-}
-.containerFluid .cardDetails {
-	text-align: left !important;
-	font-weight: normal !important;
-}
 .lastL li {
 	padding: 5px 10px;
 }
-@media all and (max-width: 400px) {
+.an li {
+	font-weight: normal !important;
+}
+.faDv {
+	width: 75%;
+}
+.faIcon {
+	font-size: 54px;
+	color: #051643;
+}
+.faIcon2 {
+	font-size: 40px !important;
+	font-weight: 900;
+}
+.faIcon3 {
+	margin-top: -8px;
+	font-size: 17px;
+}
+.checked {
+	color: orange;
+}
+.roundedCard {
+	position: relative;
+	border-radius: 12px;
+}
+.rI {
+	position: absolute;
+	top: -2%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #051643;
+}
+.rNm {
+	font-size: 16.5px;
+	font-weight: 700;
+}
+.dTail {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: #051643;
+	margin-top: 20px;
+}
+.dTails {
+	width: 90%;
+	margin: auto;
+}
+.nR {
+	font-size: 19px;
+	font-weight: 400;
+}
+.pN {
+	font-size: 30px;
+	font-weight: 700;
+}
+.fI {
+	font-size: 28px;
+	padding: 0px 15px;
+}
+.oA {
+	font-size: 20px;
+	font-weight: 600;
+	text-align: right;
+}
+.oD {
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+	text-align: right;
+}
+.footer {
+	background-color: #f0f3f4;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.b1 {
+	border-width: 0 0 0 3px;
+	border-style: solid;
+	border-color: #13aff0;
+	padding-left: 15px;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+}
+.fL {
+	list-style: none;
+}
+.fIP {
+	padding: 10px 0px;
+}
+.fII {
+	color: #13aff0;
+	font-size: 15px;
+	padding: 10px 15px;
+	border: 1px solid #13aff0;
+}
+.fTT {
+	font-size: 14px;
+	font-weight: 800;
+}
+.fAdd {
+	font-size: 13px;
+	letter-spacing: normal !important;
+}
+.cR {
+	font-size: 12px;
+	padding-top: 50px;
+}
+@media all and (max-width: 1030px) and (min-width: 360px) {
 	.address {
 		margin-left: -100%;
 	}
@@ -353,7 +470,7 @@ body {
 		width: 100%;
 	}
 	.navbar {
-		margin-top: -80px;
+		margin-top: -60px;
 	}
 	.mediaFlex {
 		margin-bottom: 2rem;
@@ -362,12 +479,11 @@ body {
 		width: 100%;
 	}
 	.standardStyle {
-		left: 91%;
+		left: 92%;
 	}
 	.standardStyle2 {
 		top: 6%;
 		left: 103%;
-		border-right: 19px solid transparent;
 	}
 	.textDiv {
 		left: 50%;
@@ -379,9 +495,6 @@ body {
 	.textBtn {
 		font-size: 11px;
 		padding: 10px 30px;
-	}
-	.pr {
-		font-size: 16px;
 	}
 	.ch {
 		font-size: 24px;
@@ -408,9 +521,35 @@ body {
 		height: 370px;
 	}
 	.containerFluid2 {
-		width: 90%;
+		width: 100%;
 	}
 	.containerFluid {
-		width: 90%;
+		width: 100%;
+	}
+	.angle {
+		top: 25%;
+		left: 95%;
+	}
+	.dTails {
+		width: 100%;
+	}
+	.oD,
+	.oA {
+		text-align: center;
+	}
+}
+@media all and (max-width: 380px) {
+	.navbar {
+		margin-top: -80px !important;
+	}
+}
+/* @media all and (max-width: 770px) {
+	.navbar {
+		margin-top: -30px !important;
+	}
+} */
+@media all and (max-width: 376px) {
+	.navbar {
+		margin-top: -80px !important;
 	}
 }
