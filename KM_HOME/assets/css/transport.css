@@ -72,7 +72,6 @@
 	background-color: #0b7cac;
 }
 .SBNM {
-	margin-top: 300px;
 	background-color: white !important;
 }
 .an {
@@ -88,15 +87,26 @@
 .clCmnt {
 	font-size: 15px;
 	color: #454360;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 20px;
 }
 .cmnt {
 	background-color: #f0f3f4;
 	margin-top: 300px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 .clName,
 .clTop {
 	font-size: 14px;
-	font-weight: 600;
+	font-weight: 700;
+	color: #454360;
+	text-transform: capitalize;
+}
+.clTop2{
+	font-size: 16px;
+	font-weight: 700;
 	color: #454360;
 	text-transform: capitalize;
 }
@@ -104,6 +114,33 @@
 	font-size: 11.9px;
 	color: #454360;
 	text-transform: capitalize;
+}
+.nwsLt{
+	border: 6px solid #0b719f;
+	padding: 50px 50px 50px 50px;
+}
+.inputGroupText{
+	background-color: #0b719f;
+	color: white;
+}
+.contactUS{
+	background-color: #0b719f;
+	color: white;
+}
+/* tracking */
+.trackD{
+	background-color: #f0f3f4;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.consignBtn{
+	background-color:#13AFF0;
+	color: white;
+}
+.consignTit{
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 @media all and (max-width: 1030px) and (min-width: 360px) {
 	.allTxt {
@@ -142,5 +179,15 @@
 		font-size: 14px;
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+	.truckN{
+		top: 160%;
+	}
+	.cmnt{
+		margin-top: 85rem;
+	}
+	.resP{
+		margin-left: 15px;
+		margin-right: 15px;
 	}
 }

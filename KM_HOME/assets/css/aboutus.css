@@ -1,0 +1,83 @@
+.nBg {
+	background-color: #051643;
+	background-image: url("../img/cargo_pic_8-1.jpg");
+	opacity: 0.1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.abtIc {
+	color: #102d5e;
+}
+.abtDes,
+.abtTit {
+	color: #454360;
+	text-align: center;
+	font-weight: 400;
+}
+.shape {
+	position: relative;
+}
+.storyLb {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 600;
+	color: #454360;
+}
+.storyDes {
+	margin-top: 70px;
+	margin-bottom: 70px;
+	text-align: justify;
+	font-size: 16px;
+	color: #454360;
+	font-weight: 400;
+}
+iframe {
+	height: 560px;
+	width: 100%;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+/* contactus */
+.contactTxt1,
+.contactTxt2,
+.contactIc,
+.contactTxt3,
+.contactIc2 {
+	color: white;
+}
+.contactTxt1 {
+	font-size: 47.6px;
+	font-weight: 800;
+}
+.contactTxt2 {
+	font-size: 21px;
+	font-weight: 700;
+}
+.contactTxt3 {
+    font-size: 14px;
+}
+.contactIc{
+    font-size: 25px;
+}
+.d1{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.d2{
+    padding-bottom: 70px;
+}
+.spaIc{
+    padding: 10px 0px;
+}
+.contactIc2{
+    font-size: 24px;
+}
+.spaBt{
+    padding: 0px 10px;
+}
