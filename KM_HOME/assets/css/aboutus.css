@@ -14,6 +14,20 @@
 .abtIc {
 	color: #102d5e;
 }
+.divPd {
+	padding-bottom: 300px;
+}
+.clr {
+	position: absolute;
+	top: 69%;
+}
+.scl {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+}
 .abtDes,
 .abtTit {
 	color: #454360;
@@ -23,61 +37,72 @@
 .shape {
 	position: relative;
 }
+.story {
+	margin-top: 250px;
+	margin-bottom: 300px;
+}
 .storyLb {
 	text-align: center;
 	font-size: 40px;
 	font-weight: 600;
 	color: #454360;
 }
-.storyDes {
+.storyGap {
 	margin-top: 70px;
 	margin-bottom: 70px;
-	text-align: justify;
-	font-size: 16px;
-	color: #454360;
-	font-weight: 400;
 }
-iframe {
-	height: 560px;
+.storyDes {
+	text-align: justify;
+	font-size: 17px;
+	color: #454360;
+	font-weight: 500;
+}
+.youtube {
+	height: 550px;
 	width: 100%;
 	padding-left: 40px;
 	padding-right: 40px;
+	padding: 10px;
+	background-color: white;
 }
-/* contactus */
-.contactTxt1,
-.contactTxt2,
-.contactIc,
-.contactTxt3,
-.contactIc2 {
-	color: white;
+.ytbFit {
+	position: relative;
+	padding-bottom: 500px;
+	background-color: #051643;
 }
-.contactTxt1 {
-	font-size: 47.6px;
-	font-weight: 800;
+.btClr {
+	position: absolute;
+	width: auto;
 }
-.contactTxt2 {
-	font-size: 21px;
-	font-weight: 700;
+.yt {
+	position: absolute;
+	top: -30%;
+	width: 100%;
 }
-.contactTxt3 {
-    font-size: 14px;
-}
-.contactIc{
-    font-size: 25px;
-}
-.d1{
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-.d2{
-    padding-bottom: 70px;
-}
-.spaIc{
-    padding: 10px 0px;
-}
-.contactIc2{
-    font-size: 24px;
-}
-.spaBt{
-    padding: 0px 10px;
+@media all and (max-width: 1030px) and (min-width: 360px) {
+	.youtube {
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
+		height: 500px;
+	}
+	.divPd {
+		padding-bottom: 200px;
+	}
+	.clr {
+		top: 90%;
+	}
+	.scl {
+		top: 205%;
+	}
+	.story {
+		margin-top: 63rem;
+		margin-bottom: 300px;
+	}
+	.ytbFit {
+		padding-bottom: 300px;
+	}
+	.yt{
+		top: -50%;
+	}
 }

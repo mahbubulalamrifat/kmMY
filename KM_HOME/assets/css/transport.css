@@ -183,6 +183,9 @@
 	.truckN{
 		top: 160%;
 	}
+	.truck{
+		z-index: 3;
+	}
 	.cmnt{
 		margin-top: 85rem;
 	}

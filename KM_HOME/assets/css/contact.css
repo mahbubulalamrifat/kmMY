@@ -1,0 +1,46 @@
+.contactTxt1,
+.contactTxt2,
+.contactIc,
+.contactTxt3,
+.contactIc2 {
+	color: white;
+}
+.contactTxt1 {
+	font-size: 47.6px;
+	font-weight: 800;
+}
+.contactTxt2 {
+	font-size: 21px;
+	font-weight: 700;
+}
+.contactTxt3 {
+    font-size: 14px;
+}
+.contactIc{
+    font-size: 25px;
+}
+.d1{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.d2{
+    padding-bottom: 70px;
+}
+.spaIc{
+    padding: 10px 0px;
+}
+.contactIc2{
+    font-size: 24px;
+}
+.spaBt{
+    padding: 0px 10px;
+}
+.gMap{
+	position: relative;
+}
+.ggMap{
+	height: 374px;
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
