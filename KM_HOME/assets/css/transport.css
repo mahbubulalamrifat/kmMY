@@ -194,3 +194,9 @@
 		margin-right: 15px;
 	}
 }
+
+@media all and (max-width: 1030px) and (min-width: 360px){
+	.nwsLt{
+		padding: 20px 20px 20px 20px;
+	}
+}
